@@ -1,8 +1,8 @@
 ## Level - 1 Projects
 
 ### Project-1
-![Project 1 Screenshot](./img/project-1.png)
+<img src="./img/project-1.png" alt="Project 1 Screenshot" width="300">
 
 
 ### Project-2
-![Project 2 Screenshot](./img/project-2.png)
+<img src="./img/project-2.png" alt="Project 2 Screenshot" width="300">
