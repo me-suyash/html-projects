@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Feed expo</title>
+  </head>
+  <body>
+    <header
+      style="
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 75px;
+        padding: 0 20px;
+        z-index: 100;
+      "
+    >
+      <div style="display: flex; align-items: center">
+        <h1>News Feed</h1>
+      </div>
+      <nav
+        style="
+          display: flex;
+          gap: 15px;
+          justify-content: space-between;
+          align-items: center;
+        "
+      >
+        <a href="#breaking"> Breaking News </a>
+        <a href="#highlights"> Highlights </a>
+        <a href="#countries"> Country News </a>
+        <a href="#states"> State News </a>
+      </nav>
+    </header>
+    <aside
+      style="
+        width: 200px;
+        position: fixed;
+        top: 80px;
+        padding: 5px 15px;
+        left: 0;
+        bottom: 10px;
+      "
+    >
+      <section>
+        <h3 style="margin: 10px 0">Sections</h3>
+        <ul style="margin: 0; padding: 0 16px 0">
+          <li>Top News</li>
+          <li>Business</li>
+          <li>Technology</li>
+          <li>Sports</li>
+          <li>Culture</li>
+        </ul>
+      </section>
+      <hr />
+      <section>
+        <h3 style="margin: 10px 0">Trendings</h3>
+        <ul style="margin: 0; padding: 0 16px 0">
+          <li>Share Market</li>
+          <li>Elections</li>
+          <li>Pollution</li>
+        </ul>
+      </section>
+      <hr />
+      <section>
+        <h3 style="margin: 10px 0">Social Links</h3>
+        <a
+          href=""
+          style="
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 5px;
+          "
+          ><img
+            src="https://www.pngmart.com/files/23/Black-Twitter-Logo-PNG-Image.png"
+            alt="twitter"
+            width="20px"
+          />
+          Twitter</a
+        >
+        <a
+          href=""
+          style="
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 5px;
+          "
+          ><img
+            src="https://www.pngmart.com/files/13/Instagram-Logo.png"
+            alt="instagram"
+            width="20px"
+          />
+          Instagram</a
+        >
+        <a
+          href=""
+          style="
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 5px;
+          "
+          ><img
+            src="https://www.pngmart.com/files/23/Black-Facebook-Logo-PNG-Image.png"
+            alt="facebook"
+            width="20px"
+          />
+          Facebook</a
+        >
+        <a
+          href=""
+          style="
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 5px;
+          "
+          ><img
+            src="https://www.pngmart.com/files/23/Black-Youtube-Logo-PNG.png"
+            alt="facebook"
+            width="20px"
+          />
+          YouTube</a
+        >
+      </section>
+    </aside>
+    <main style="margin: 80px 0 0 220px; padding: 10px">
+      <section id="breaking">
+        <h2>Breaking News</h2>
+        <div style="display: flex; gap: 40px; overflow: auto">
+          <article style="width: 280px">
+            <img
+              src="https://placehold.co/280x200"
+              alt="news-img"
+              height="200px"
+            />
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate, distinctio!
+            </p>
+          </article>
+          <article style="width: 280px">
+            <img
+              src="https://placehold.co/280x200"
+              alt="news-img"
+              height="200px"
+            />
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate, distinctio!
+            </p>
+          </article>
+          <article style="width: 280px">
+            <img
+              src="https://placehold.co/280x200"
+              alt="news-img"
+              height="200px"
+            />
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate, distinctio!
+            </p>
+          </article>
+          <article style="width: 280px">
+            <img
+              src="https://placehold.co/280x200"
+              alt="news-img"
+              height="200px"
+            />
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate, distinctio!
+            </p>
+          </article>
+          <article style="width: 280px">
+            <img
+              src="https://placehold.co/280x200"
+              alt="news-img"
+              height="200px"
+            />
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate, distinctio!
+            </p>
+          </article>
+          <article style="width: 280px">
+            <img
+              src="https://placehold.co/280x200"
+              alt="news-img"
+              height="200px"
+            />
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate, distinctio!
+            </p>
+          </article>
+        </div>
+      </section>
+      <section id="highlights">
+        <h2>Highlights</h2>
+        <article
+          style="
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
+            margin-bottom: 14px;
+          "
+        >
+          <img
+            src="https://placehold.co/160x100"
+            alt="thumb"
+            width="160"
+            height="100"
+            style="display: block"
+          />
+          <div style="flex: 1">
+            <h4 style="margin: 0 0 6px 0">Lorem ipsum dolor sit amet</h4>
+            <p style="margin: 0 0 6px 0">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni
+              quam provident doloribus, quisquam veritatis, saepe omnis,
+              adipisci aut vitae aliquid dolorem totam ratione. Dicta,
+              repellendus Lorem, ipsum dolor.
+            </p>
+          </div>
+        </article>
+        <article
+          style="
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
+            margin-bottom: 14px;
+          "
+        >
+          <img
+            src="https://placehold.co/160x100"
+            alt="thumb"
+            width="160"
+            height="100"
+            style="display: block"
+          />
+          <div style="flex: 1">
+            <h4 style="margin: 0 0 6px 0">Lorem ipsum dolor sit amet</h4>
+            <p style="margin: 0 0 6px 0">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni
+              quam provident doloribus, quisquam veritatis, saepe omnis,
+              adipisci aut vitae aliquid dolorem totam ratione. Dicta,
+              repellendus Lorem, ipsum dolor.
+            </p>
+          </div>
+        </article>
+        <article
+          style="
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
+            margin-bottom: 14px;
+          "
+        >
+          <img
+            src="https://placehold.co/160x100"
+            alt="thumb"
+            width="160"
+            height="100"
+            style="display: block"
+          />
+          <div style="flex: 1">
+            <h4 style="margin: 0 0 6px 0">Lorem ipsum dolor sit amet</h4>
+            <p style="margin: 0 0 6px 0">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni
+              quam provident doloribus, quisquam veritatis, saepe omnis,
+              adipisci aut vitae aliquid dolorem totam ratione. Dicta,
+              repellendus Lorem, ipsum dolor.
+            </p>
+          </div>
+        </article>
+        <a href="#"><strong>More Highlights >></strong></a>
+      </section>
+      <div style="display: flex; justify-content: space-evenly">
+        <section id="countries" style="flex: 1">
+          <h3>Top News by Countries</h3>
+          <div style="height: 300px; overflow: auto">
+            <article style="margin-bottom: 10px">
+              <h4 style="margin: 0">India</h4>
+              <p style="margin: 5px 0">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis, quam. Lorem, ipsum.
+              </p>
+              <a href="#">More >></a>
+            </article>
+            <article style="margin-bottom: 10px">
+              <h4 style="margin: 0">Pakistan</h4>
+              <p style="margin: 5px 0">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis, quam. Lorem ipsum dolor sit.
+              </p>
+              <a href="#">More >></a>
+            </article>
+            <article style="margin-bottom: 10px">
+              <h4 style="margin: 0">Bangladesh</h4>
+              <p style="margin: 5px 0">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis, quam. Lorem ipsum dolor sit amet consectetur.
+              </p>
+              <a href="#">More >></a>
+            </article>
+            <article style="margin-bottom: 10px">
+              <h4 style="margin: 0">China</h4>
+              <p style="margin: 5px 0">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis, quam.
+              </p>
+              <a href="#">More >></a>
+            </article>
+            <article style="margin-bottom: 10px">
+              <h4 style="margin: 0">United States</h4>
+              <p style="margin: 5px 0">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis, quam. Lorem, ipsum dolor.
+              </p>
+              <a href="#">More >></a>
+            </article>
+          </div>
+        </section>
+        <section id="states" style="flex: 1">
+          <h3>Top News by States</h3>
+          <div style="height: 300px; overflow: auto">
+            <article style="margin-bottom: 10px">
+              <h4 style="margin: 0">Uttar Pradesh, India</h4>
+              <p style="margin: 5px 0">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis, quam. Lorem, ipsum.
+              </p>
+              <a href="#">More >></a>
+            </article>
+            <article style="margin-bottom: 10px">
+              <h4 style="margin: 0">Henan and Shandong, China</h4>
+              <p style="margin: 5px 0">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis, quam. Lorem ipsum dolor sit.
+              </p>
+              <a href="#">More >></a>
+            </article>
+            <article style="margin-bottom: 10px">
+              <h4 style="margin: 0">California, USA</h4>
+              <p style="margin: 5px 0">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis, quam. Lorem ipsum dolor sit amet consectetur.
+              </p>
+              <a href="#">More >></a>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer
+      style="
+        text-align: center;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+      "
+    >
+      <div>
+        <small style="display: block">© DailyByte — All rights reserved</small>
+        <small style="display: block">Privacy • Terms</small>
+      </div>
+    </footer>
+  </body>
+</html>
