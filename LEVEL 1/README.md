@@ -17,8 +17,6 @@ This folder includes foundational, beginner-friendly web projects built with pla
 **Tech Stack:** HTML 
 **Repository / Source:** [Project 2](./project-2/index.html)
 
-*(Add additional projects if any, following the same format)*
-
 ---
 
 ## 🎯 Why This Folder?  
